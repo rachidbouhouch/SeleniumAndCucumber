@@ -11,12 +11,12 @@ public class CommanStep {
         if(scenario.isFailed()){
             TakesScreenshot ts=(TakesScreenshot) driver;
             byte[] screenshots = ts.getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshots,"image/png","taking screenshot for this scenario...");
+            scenario.attach(screenshots,"image/png","taking screenshot for the scenario...");
         }
         else {
             TakesScreenshot ts=(TakesScreenshot) driver;
             byte[] screenshots = ts.getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshots,"image/png","taking attached for this scenario...");
+            scenario.attach(screenshots,"image/png","taking attached for the scenario...");
         }
 
 
