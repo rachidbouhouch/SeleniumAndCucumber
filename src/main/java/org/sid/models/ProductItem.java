@@ -1,4 +1,4 @@
-package models;
+package org.sid.models;
 
 public class ProductItem {
         private String quantity;
@@ -13,15 +13,8 @@ public class ProductItem {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
-        this.quantity = quantity;
-    }
-
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }

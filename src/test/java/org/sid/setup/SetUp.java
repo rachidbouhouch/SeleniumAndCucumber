@@ -28,7 +28,6 @@ public class SetUp {
         return readConfigProperties;
     }
 
-
     public void init() throws MalformedURLException {
 
         readConfigProperties=new ReadConfigProperties(nameFile);

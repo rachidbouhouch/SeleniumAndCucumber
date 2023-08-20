@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23b59b79-20b0-4207-b91b-d1308ec87243" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/consolestorage/flexible_search_region.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/consolestorage/solr_region.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hybrisProjectSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sid/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/pages/CapsulePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/setup/Brouillon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/setup/SetUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/stepsdefinitions/OrderStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/utilities/CommanStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sid/utilities/ReadConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configfiles/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/order.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sid/models/ProductItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sid/models/ProductItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sid/pages/CapsulePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sid/pages/CapsulePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sid/setup/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sid/setup/SetUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sid/stepsdefinitions/OrderStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sid/stepsdefinitions/OrderStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sid/utilities/CommanStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sid/utilities/CommanStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rbouhouch/Desktop/exercicesTestAuto/ExercicesTestAutomation&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -159,7 +142,8 @@
       <workItem from="1690124697852" duration="1399000" />
       <workItem from="1690133245067" duration="30589000" />
       <workItem from="1690367600381" duration="17519000" />
-      <workItem from="1690657750234" duration="11132000" />
+      <workItem from="1690657750234" duration="18914000" />
+      <workItem from="1692536358746" duration="4241000" />
     </task>
     <servers />
   </component>

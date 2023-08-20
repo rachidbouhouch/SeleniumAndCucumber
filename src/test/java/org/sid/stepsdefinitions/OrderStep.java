@@ -7,17 +7,17 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.sid.models.ProductItem;
 import org.junit.Assert;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.sid.pages.CapsulePage;
 import org.sid.setup.SetUp;
 import org.sid.utilities.CommanStep;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class OrderStep {
 
@@ -60,6 +60,8 @@ public class OrderStep {
 
     @Then("Mini cart contains {} units of {} capsule")
     public void miniCartContainsUnitsOfCapsule(String quantity, String productName) throws InterruptedException {
+        List<Integer> mylist=new ArrayList();
+
         capsulePage.clickAddToCart();
         String result=capsulePage.quantityCapsuleFromCart(productName);
         System.out.println(result);

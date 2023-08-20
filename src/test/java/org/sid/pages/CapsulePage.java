@@ -1,6 +1,6 @@
 package org.sid.pages;
 
-import com.beust.ah.A;
+import org.sid.models.ProductItem;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -24,6 +23,8 @@ public class CapsulePage {
     WebElement buttonAcceptCookies;
     @FindBy(xpath = "//a[@class='action showcart']")
     WebElement buttonShowCart;
+
+
 
     public CapsulePage(WebDriver driver){
         this.driver=driver;
